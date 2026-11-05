@@ -1,5 +1,5 @@
 export default {
   async fetch(request, env) {
-    return new Response("Hello world");
+    return new Response("<!doctype html>");
   }
 };
